@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<addon scheme='2.0'>
+    <id>csc_instagram_feed</id>
+    <version>1.0</version> 
+    <name>CS-Cart Instagaram Feed</name>
+    <description>Configurable Instagram Feed</description>
+    <priority>100501</priority>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="instagram_user_id">
+                        <name>Instagram User ID</name>
+                        <type>input</type>
+                    </item>
+                    <item id="instagram_access_token">
+                        <name>Instagram Access Token</name>
+                        <type>input</type>
+                    </item>
+                    <item id="number_of_item">
+                        <name>Number of Item</name>
+                        <type>selectbox</type>
+                        <default_value>4</default_value>
+                        <variants>
+                            <item id="1">
+                                <name>1</name>
+                            </item>
+                            <item id="2">
+                                <name>2</name>
+                            </item>
+                            <item id="3">
+                                <name>3</name>
+                            </item>
+                            <item id="4">
+                                <name>4</name>
+                            </item>
+                            <item id="5">
+                                <name>5</name>
+                            </item>
+                            <item id="6">
+                                <name>6</name>
+                            </item>
+                            <item id="7">
+                                <name>7</name>
+                            </item>
+                            <item id="8">
+                                <name>8</name>
+                            </item>
+                            <item id="9">
+                                <name>9</name>
+                            </item>
+                            <item id="10">
+                                <name>10</name>
+                            </item>
+                            <item id="11">
+                                <name>11</name>
+                            </item>
+                            <item id="12">
+                                <name>12</name>
+                            </item>
+                            <item id="13">
+                                <name>13</name>
+                            </item>
+                            <item id="14">
+                                <name>14</name>
+                            </item>  
+                            <item id="15">
+                                <name>15</name>
+                            </item>
+                            <item id="16">
+                                <name>16</name>
+                            </item>                                                                                                                  
+						</variants>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
