@@ -33,7 +33,7 @@ $obj = json_decode($output, true);
 
 $data = array();
 $i = 1;
-
+if (is_array($obj) || is_object($obj)) {
 foreach ($obj['data'] as $post) {
 
     $pic_text=$post['caption']['text'];
@@ -48,6 +48,7 @@ foreach ($obj['data'] as $post) {
     $data[$i]['title'] = $pic_text;
     
     $i++;
+}
 }
     //var_dump($data);
     
